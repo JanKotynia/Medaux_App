@@ -1,4 +1,4 @@
-package com.jan.medaux.domain.repositories;
+package com.jan.medaux.repositories;
 
 import com.jan.medaux.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
