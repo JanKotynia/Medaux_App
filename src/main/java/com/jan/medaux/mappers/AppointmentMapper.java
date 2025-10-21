@@ -9,6 +9,8 @@ import org.mapstruct.ReportingPolicy;
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface AppointmentMapper {
 
-    @Mapping(target = "user", source = "user")
+
     AppointmentDto toDto(Appointment appointment);
+
+    Appointment toEntity(AppointmentDto appointmentDto);
 }

@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface AppointmentService {
     List<Appointment> listAppointments();
+    Appointment createAppointment(Appointment appointment);
 }
